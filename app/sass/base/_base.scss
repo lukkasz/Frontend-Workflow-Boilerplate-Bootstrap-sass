@@ -1,0 +1,28 @@
+// ================================================================================
+// Base Styles
+// ================================================================================
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	color: red;
+}
+
+h1 {
+	color: green;
+}
+
+.content {
+	@include make-row();
+}
+
+main {
+	@include make-lg-column(8);
+}
+
+aside {
+	@include make-lg-column(4);
+}
+
